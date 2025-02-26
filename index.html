@@ -8,7 +8,48 @@
 </head>
 <body>
     
+    <h1 id="titulo">Hola, Mundo</h1>
 
-    <script src="objetos.js"></script>
+<!--Selección de DOM mediante ID-->
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+
+
+<!--Selleción del DOM mediante clase-->
+<p class="texto">Este es el primer párrafo</p>
+<p class="texto">Este es el segundo párrafo</p>
+<p class="texto">Este es el tercer párrafo</p>
+
+<button onclick="cambiarColorClase()">Cambiar color</button>
+
+<!--Selección por etiqueta-->
+<p>Hola, soy un párrafo</p>
+<p>También soy un párrafo</p>
+
+<button onclick="ocultarParrafo()">Oculta el segundo párrafo</button>
+
+
+<!--Usando querySelector-->
+
+<div>
+    <p>La mecánica cuántica es interesante</p>
+</div>
+<p>La mecánica cuántica es complicada</p>
+
+<button onclick="cambiarTextoDiv()">Cambiar texto dentro de un div</button>
+
+<!--Usando querySelectorAll-->
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ul>
+
+<button onclick="marcarItems()">Marcar items</button>
+
+
+
+
+<!--Enlace con JavaScript-->
+    <script src="main.js"></script>
 </body>
 </html>
