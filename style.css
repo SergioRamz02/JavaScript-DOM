@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#form-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    background-color: aquamarine;
+    width: 60%;
+    align-items: center;
+
+}
+form{
+    flex-direction: column;
+}
