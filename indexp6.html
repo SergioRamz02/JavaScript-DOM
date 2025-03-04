@@ -13,23 +13,17 @@
 <!-- Sección del formulario-->
 
 <section id="form-container">
-    <form>
-            
-        <label for="email">* Ingresa tu email</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu email" required>
-    
-    
-        <label for="text">* Escribe un comentario</label>
-        <input type="text" class="Caja-comentario" id="comentario" name="comentario" placeholder="Escribe un comentario" required>
-    
-    <button type="submit" id="addComentario">Enviar comentario</button>
- </form>
+   <h1>Caja de comentarios</h1>
+<!-- Formulario de comentarios -->
+    <textarea id="textoComentario" class="caja-comentarios" rows="4" placeholder="Escribe tu comentario..."></textarea>
+    <button id="agregarComentario">Enviar comentario</button>
+
 </section>
 
 <!--Este apartado es para que se creen los comentarios enviados-->
-<section id="cometario-enviado">
-
-</section>
+<div id="seccionComentario">
+<!--Los comentarios aparecerán aquí-->
+</div>
 
 
 <!--Enlazando con JavaScript-->

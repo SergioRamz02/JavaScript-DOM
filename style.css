@@ -1,18 +1,59 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
+    font-size: 16px;
+    margin: 15px;
+    background-color: antiquewhite;
 
+}
+h1{
+    text-align: center;
+    padding: 5px;
+    background-color: beige;
+}
 #form-container{
     display: flex;
     flex-direction: column;
     margin: 0 20%;
-    background-color: aquamarine;
+    background-color: rgb(181, 255, 250);
+    padding: 10px;
+    border: 1px solid black;
     width: 60%;
     align-items: center;
-
+    justify-content: center;
 }
-form{
+#textoComentario{
+    width: 90%;
+    justify-content: center;
+}
+button{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 220, 6);
+    color: black;
+    font-size: 11pt;
+    font-weight: 700;
+    padding: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d1efd3;
+}
+#nuevoComentario{
+    display: flex;
     flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    background-color:white;
+    margin: 15px 25%;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
 }
+.date{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 12pt;
+}
+
